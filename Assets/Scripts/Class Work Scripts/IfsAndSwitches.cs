@@ -5,21 +5,21 @@ using UnityEngine;
 
 public class IfsAndSwitches : MonoBehaviour
 {
-    int num = 1;
+    int num = 4;
     int num1 = 2;
-    int sum;
-    
+    int sum; //do I have to declare sum here for the script to work?
 
-
-    static int calculator( int num, int num1, int sum)
+    static int calculator( int num, int num1)
     {
-        sum = num * num1;
-        return sum;
+        num *= num1;
+        Debug.Log(num);
+        Debug.Log(num1);
+        return num;
     }
 
-    void MySwitch( int sum)
+    void MySwitch( int num)
     {
-        switch(sum)
+        switch(num)
         {
             case 1:
                 Debug.Log("1");
@@ -39,9 +39,11 @@ public class IfsAndSwitches : MonoBehaviour
         }
     }
 
-    void Start()
+    static void Start()
     {
-        Debug.Log(sum);
+        Debug.Log("bla");
+        calculator(num, num1);
+        
         
     }
 }
