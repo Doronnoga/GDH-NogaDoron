@@ -4,49 +4,51 @@ using UnityEngine;
 
 public class Elevator : MonoBehaviour
 {
+    [SerializeField]
     int currentCapacity;
     int maxCapacity = 10;
     bool active = false;
 
     int currentFloor;
     int targetFloor;
-    int clickedFloor;
-    List<int> floorsClicked = new List<int> { 1 ,3 , 5};
+    [SerializeField] 
+    private int clickedFloor;
 
-    bool IsElevatorActive(int currentCapacity, int maxCapacity , bool active)
+
+    bool isElevatorActive(int currentCapacity, int maxCapacity , bool active)
     {
         Debug.Log("Checking if elevator is active...");
-        if (maxCapacity >= currentCapacity)
+        if (maxCapacity > currentCapacity)
         {
             active = true;
             Debug.Log($"Elevator is active");
         }
-        else
+        else if (maxCapacity < currentCapacity)
         {
             active = false;
             Debug.Log($"Elevator is not active");
+            Debug.Log($"Current capacity exceeds the maximum.");
+
         }
         return active;
     }
-    int isClicked( List<int> floorsClicked , int currentFloor ,int clickedFloor, int targetFloor) //calculated target floor convert clicked to target, remove previous floor and sort ro calculate target.
+
+    int isClicked(int currentFloor ,int clickedFloor, int targetFloor)
     {
-        //add clicked floor to list
+        List<int> floorsClicked = new List<int> { 1 , 3 , 5 };
+
         floorsClicked.Add(clickedFloor);
         Debug.Log($"Clicked floor is {clickedFloor}");
-        Debug.Log($"floors clicked count= {floorsClicked.Count}");
-
-
-        //set previous floor and remove from list, sort list, set target
         floorsClicked.Remove(currentFloor);
+        Debug.Log($"Floors in clicked = {floorsClicked.Count}");
         floorsClicked.Sort();
 
-        for (int i = 0; i < floorsClicked.Count; i++) 
+        for (int i = 0; i < floorsClicked.Count; i++)
         {
-            Debug.Log(floorsClicked[i]);
+            Debug.Log($"Floor { floorsClicked[i]}");
         }
-
-        floorsClicked[0] = targetFloor;
-        Debug.Log($"Next floor is {targetFloor}");
+            targetFloor = floorsClicked[0];
+            Debug.Log($"Next floor is {targetFloor}");
 
         return targetFloor;
     }
@@ -56,10 +58,16 @@ public class Elevator : MonoBehaviour
 
     void Start()
     {
-        IsElevatorActive(3, maxCapacity, active);
-        if (active)
+        isElevatorActive(currentCapacity, maxCapacity, active);
+        Debug.Log($"before if, active is:{active}");
+        if (isElevatorActive)
         {
-            isClicked(floorsClicked, 1, 8, 3);
+            isClicked(1,clickedFloor, 3);
+        }
+        else //active not transferin delete this after test
+        {
+            Debug.Log("Elevator is out of order");
+            isClicked(1,clickedFloor, 3);
         }
     }
 }
