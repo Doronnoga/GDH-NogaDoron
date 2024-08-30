@@ -7,67 +7,114 @@ public class Elevator : MonoBehaviour
     [SerializeField]
     int currentCapacity;
     int maxCapacity = 10;
+
+    bool capacityLimitOkay;
+    bool fucntionalOkay;
     bool active = false;
 
+    [SerializeField]
     int currentFloor;
-    int targetFloor;
+    int targetFloor = 3;
+
     [SerializeField] 
-    private int clickedFloor;
+    int clickedFloor;
 
+    [SerializeField]
+    int sinceCheck;
+    int maxMaintnanceDays = 80;
 
-    bool isElevatorActive(int currentCapacity, int maxCapacity , bool active)
+    bool maintnanceCheck() 
     {
-        Debug.Log("Checking if elevator is active...");
-        if (maxCapacity > currentCapacity)
+        if (maxMaintnanceDays > sinceCheck)
         {
-            active = true;
-            Debug.Log($"Elevator is active");
+            fucntionalOkay = true;
+            Debug.Log($"{sinceCheck} days since last checked.");
+
+        }
+        else if (maxMaintnanceDays < sinceCheck)
+        {
+            fucntionalOkay = false;
+            Debug.Log($"{sinceCheck} days since last checked.");
+            Debug.Log("Elevator is past due maintnance, please contact your supplier.");
+        }
+
+        return fucntionalOkay;
+    }
+    bool checkCapacity()
+    {
+        if (maxCapacity >= currentCapacity)
+        {
+            capacityLimitOkay = true;
         }
         else if (maxCapacity < currentCapacity)
         {
-            active = false;
-            Debug.Log($"Elevator is not active");
+            capacityLimitOkay = false;
             Debug.Log($"Current capacity exceeds the maximum.");
 
         }
-        return active;
+        return capacityLimitOkay;
     }
+    bool isActive() 
+    { 
+        maintnanceCheck();
+        checkCapacity();
+        if (capacityLimitOkay && fucntionalOkay)
+        {
+            active = true;
+            Debug.Log("Elevator is active.");
+        }
+        else 
+        { 
+            active = false;
+            Debug.Log("Elevator is deactivated.");
+        }
+        return active;
 
+    }
     int isClicked(int currentFloor ,int clickedFloor, int targetFloor)
     {
-        List<int> floorsClicked = new List<int> { 1 , 3 , 5 };
+        List<int> floorsClicked = new List<int> { 2 , 3 , 5 };
 
         floorsClicked.Add(clickedFloor);
         Debug.Log($"Clicked floor is {clickedFloor}");
         floorsClicked.Remove(currentFloor);
-        Debug.Log($"Floors in clicked = {floorsClicked.Count}");
+        Debug.Log($"There are {floorsClicked.Count} floors in queue.");
         floorsClicked.Sort();
 
         for (int i = 0; i < floorsClicked.Count; i++)
         {
             Debug.Log($"Floor { floorsClicked[i]}");
         }
+
+        if (clickedFloor < targetFloor)
+        {
+            Debug.Log($"Next floor is {targetFloor}");
+        }
+        else if(clickedFloor == targetFloor)
+        {
+            Debug.Log($"This is floor {targetFloor}, please disembark or choose again.");
+        }
+        else
+        {
             targetFloor = floorsClicked[0];
             Debug.Log($"Next floor is {targetFloor}");
+        }
+            
 
         return targetFloor;
     }
-    //static elevatorMovment() 
-    //{ 
-    //}
+    
 
     void Start()
     {
-        isElevatorActive(currentCapacity, maxCapacity, active);
-        Debug.Log($"before if, active is:{active}");
-        if (isElevatorActive)
+        isActive();
+        if (active)
         {
-            isClicked(1,clickedFloor, 3);
+            isClicked(currentFloor, clickedFloor, targetFloor);
         }
-        else //active not transferin delete this after test
+        else
         {
             Debug.Log("Elevator is out of order");
-            isClicked(1,clickedFloor, 3);
         }
     }
 }
