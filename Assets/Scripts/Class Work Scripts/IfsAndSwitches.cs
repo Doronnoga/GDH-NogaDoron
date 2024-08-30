@@ -7,30 +7,50 @@ public class IfsAndSwitches : MonoBehaviour
 {
     int num = 4;
     int num1 = 2;
-    int sum; //do I have to declare sum here for the script to work?
 
-    static int calculator( int num, int num1)
+    //Create a method that accepts an integer, operates it and prints out the result.
+    static int calculator(int num, int num1)
     {
         num *= num1;
         Debug.Log(num);
         Debug.Log(num1);
         return num;
     }
+    
+    //Create a method that accepts an integer, with an if statement about this integer.
+    static int ifCalculator(int num, int num1)
+    {
+        num = num * num1;
+        if (num > 0)
+        {
+            Debug.Log($"{num} > 0");
+        }
+        else if (num == 0) 
+        {
+            Debug.Log($"{num} = 0");
+        }
+        else
+        {
+            Debug.Log($"{num} < 0");
+        }
+        return num;
+    }
 
+    //Create a method that accepts an integer, with a switch statement with 3 cases about this integer. Print something in the cases.
     void MySwitch( int num)
     {
         switch(num)
         {
-            case 1:
-                Debug.Log("1");
-                break;
-
             case 2:
-                Debug.Log("2");
+                Debug.Log($"it's a {num}!");
                 break;
 
-            case 3:
-                Debug.Log("3");
+            case 4:
+                Debug.Log($"it's a {num}!");
+                break;
+
+            case 8:
+                Debug.Log($"it's a {num}!");
                 break;
 
             default:
@@ -39,11 +59,12 @@ public class IfsAndSwitches : MonoBehaviour
         }
     }
 
-    static void Start()
-    {
-        Debug.Log("bla");
-        calculator(num, num1);
-        
-        
-    }
+     void Start()
+     {
+        calculator(2, 4);
+        ifCalculator(1, 4);
+        MySwitch(num);
+     }
 }
+
+
