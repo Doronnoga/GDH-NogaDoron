@@ -135,6 +135,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1899671350}
     m_Modifications:
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1899671352}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: checkOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: manager.TicTakGameManeger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -217,13 +233,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2972036808669878669, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Name
-      value: TickTackButton (2)
+      value: TickTackButton3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+--- !u!114 &106312068 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3909895529154399515, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+  m_PrefabInstance: {fileID: 106312067}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05aa672aaaf0173479e85a5b45db5438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &157966121
 GameObject:
   m_ObjectHideFlags: 0
@@ -300,6 +327,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1899671350}
     m_Modifications:
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1899671352}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: checkOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: manager.TicTakGameManeger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -382,13 +425,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2972036808669878669, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Name
-      value: TickTackButton (4)
+      value: TickTackButton5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+--- !u!114 &168950008 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3909895529154399515, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+  m_PrefabInstance: {fileID: 168950007}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05aa672aaaf0173479e85a5b45db5438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &184880747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -397,6 +451,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1899671350}
     m_Modifications:
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1899671352}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: checkOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: manager.TicTakGameManeger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -479,13 +549,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2972036808669878669, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Name
-      value: TickTackButton (7)
+      value: TickTackButton8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+--- !u!114 &184880748 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3909895529154399515, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+  m_PrefabInstance: {fileID: 184880747}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05aa672aaaf0173479e85a5b45db5438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &212773135
 GameObject:
   m_ObjectHideFlags: 0
@@ -717,6 +798,64 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364880455}
   m_CullTransparentMesh: 1
+--- !u!1 &433394250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 433394251}
+  - component: {fileID: 433394252}
+  m_Layer: 5
+  m_Name: YouWonScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &433394251
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433394250}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1563000327}
+  m_Father: {fileID: 960870280}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &433394252
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433394250}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b33c879b88011864bac162d47c492a2e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &659376807
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -725,6 +864,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1899671350}
     m_Modifications:
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1899671352}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: checkOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: manager.TicTakGameManeger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -807,13 +962,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2972036808669878669, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Name
-      value: TickTackButton (8)
+      value: TickTackButton9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+--- !u!114 &659376808 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3909895529154399515, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+  m_PrefabInstance: {fileID: 659376807}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05aa672aaaf0173479e85a5b45db5438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &674733103 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
@@ -827,6 +993,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1899671350}
     m_Modifications:
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1899671352}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: checkOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: manager.TicTakGameManeger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -909,13 +1091,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2972036808669878669, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Name
-      value: TickTackButton (3)
+      value: TickTackButton4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+--- !u!114 &692373897 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3909895529154399515, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+  m_PrefabInstance: {fileID: 692373896}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05aa672aaaf0173479e85a5b45db5438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &805963225 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
@@ -1022,6 +1215,7 @@ RectTransform:
   m_Children:
   - {fileID: 1899671350}
   - {fileID: 364880456}
+  - {fileID: 433394251}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1042,6 +1236,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1899671350}
     m_Modifications:
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1899671352}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: checkOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: manager.TicTakGameManeger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1124,13 +1334,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2972036808669878669, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Name
-      value: TickTackButton (5)
+      value: TickTackButton6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+--- !u!114 &1204067035 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3909895529154399515, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+  m_PrefabInstance: {fileID: 1204067034}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05aa672aaaf0173479e85a5b45db5438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1242532803 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
@@ -1141,6 +1362,82 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
   m_PrefabInstance: {fileID: 659376807}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1563000326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1563000327}
+  - component: {fileID: 1563000329}
+  - component: {fileID: 1563000328}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1563000327
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563000326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1951565928}
+  m_Father: {fileID: 433394251}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1563000328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563000326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5882353}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1563000329
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563000326}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1697085913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1149,6 +1446,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1899671350}
     m_Modifications:
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1899671352}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: checkOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: manager.TicTakGameManeger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1231,13 +1544,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2972036808669878669, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Name
-      value: TickTackButton (1)
+      value: TickTackButton2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+--- !u!114 &1697085914 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3909895529154399515, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+  m_PrefabInstance: {fileID: 1697085913}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05aa672aaaf0173479e85a5b45db5438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1899671349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1248,6 +1572,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1899671350}
   - component: {fileID: 1899671351}
+  - component: {fileID: 1899671352}
+  - component: {fileID: 1899671353}
   m_Layer: 5
   m_Name: Game Holder
   m_TagString: Untagged
@@ -1307,6 +1633,176 @@ MonoBehaviour:
   m_Spacing: {x: 50, y: 50}
   m_Constraint: 1
   m_ConstraintCount: 3
+--- !u!114 &1899671352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899671349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 684df74868db7d74283fbd98fe456f8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvasGroup: {fileID: 1899671353}
+  b1: {fileID: 5331934440627739394}
+  b2: {fileID: 1697085914}
+  b3: {fileID: 106312068}
+  b4: {fileID: 692373897}
+  b5: {fileID: 168950008}
+  b6: {fileID: 1204067035}
+  b7: {fileID: 2105166068}
+  b8: {fileID: 184880748}
+  b9: {fileID: 659376808}
+  winObject: {fileID: 433394250}
+  winText: {fileID: 1951565929}
+--- !u!225 &1899671353
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899671349}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!1 &1951565927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1951565928}
+  - component: {fileID: 1951565930}
+  - component: {fileID: 1951565929}
+  m_Layer: 5
+  m_Name: YouWonText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1951565928
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951565927}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1563000327}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 212.28}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1951565929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951565927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: you won
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278207999
+  m_fontColor: {r: 1, g: 0.2714348, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 190
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 320
+  m_fontStyle: 16
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 198.99542, y: 0, z: 201.84076, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1951565930
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951565927}
+  m_CullTransparentMesh: 1
 --- !u!224 &1978572803 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
@@ -1320,6 +1816,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1899671350}
     m_Modifications:
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1899671352}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: checkOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: manager.TicTakGameManeger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1402,13 +1914,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2972036808669878669, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Name
-      value: TickTackButton (6)
+      value: TickTackButton7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+--- !u!114 &2105166068 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3909895529154399515, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+  m_PrefabInstance: {fileID: 2105166067}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05aa672aaaf0173479e85a5b45db5438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5331934440627739393
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1417,6 +1940,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1899671350}
     m_Modifications:
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1899671352}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: checkOnClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: manager.TicTakGameManeger, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 245673546315412568, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2258060127551634624, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1499,13 +2038,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2972036808669878669, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
       propertyPath: m_Name
-      value: TickTackButton
+      value: TickTackButton1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+--- !u!114 &5331934440627739394 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3909895529154399515, guid: d62f88ca7dfdec44691eb87781b98e3c, type: 3}
+  m_PrefabInstance: {fileID: 5331934440627739393}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05aa672aaaf0173479e85a5b45db5438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

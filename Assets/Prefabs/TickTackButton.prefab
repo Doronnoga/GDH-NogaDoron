@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 2258060127551634624}
   - component: {fileID: 4002663702476983587}
   - component: {fileID: 245673546315412568}
+  - component: {fileID: 3909895529154399515}
+  - component: {fileID: 4581556374401014099}
   m_Layer: 5
   m_Name: TickTackButton
   m_TagString: Untagged
@@ -92,8 +94,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8943705561139340603}
-        m_TargetAssemblyTypeName: TicTakButton, Assembly-CSharp
+      - m_Target: {fileID: 3909895529154399515}
+        m_TargetAssemblyTypeName: TikButton.TicTakButton, Assembly-CSharp
         m_MethodName: ChangeImage
         m_Mode: 1
         m_Arguments:
@@ -104,6 +106,69 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: TikButton.TicTakButton, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4581556374401014099}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &3909895529154399515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2972036808669878669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05aa672aaaf0173479e85a5b45db5438, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  regImage: {fileID: 7402750221514488222}
+  xSprite: {fileID: 21300000, guid: 1e64f7a9b97c7e2419646ca6b54fe92e, type: 3}
+  oSprite: {fileID: 21300000, guid: 3ce129f15160ac0438589ec65f31805c, type: 3}
+  textMeshPro: {fileID: 924379078192046296}
+  particleObject: {fileID: 8346090822331729211}
+  thisButtonIs: 0
+--- !u!95 &4581556374401014099
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2972036808669878669}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6edf56038ac778c489820c63f30eda98, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3830864284199134853
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,7 +314,6 @@ GameObject:
   - component: {fileID: 4290539076952365139}
   - component: {fileID: 9206797365164854110}
   - component: {fileID: 7402750221514488222}
-  - component: {fileID: 8943705561139340603}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -267,7 +331,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2258060127551634624}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -314,23 +378,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8943705561139340603
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4577081421798086923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 05aa672aaaf0173479e85a5b45db5438, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  regImage: {fileID: 7402750221514488222}
-  xSprite: {fileID: 21300000, guid: 1e64f7a9b97c7e2419646ca6b54fe92e, type: 3}
-  oSprite: {fileID: 21300000, guid: 3ce129f15160ac0438589ec65f31805c, type: 3}
-  textMeshPro: {fileID: 924379078192046296}
-  particle: {fileID: 8054547256715858448}
 --- !u!1 &8346090822331729211
 GameObject:
   m_ObjectHideFlags: 0
@@ -348,7 +395,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4706963464207609315
 RectTransform:
   m_ObjectHideFlags: 0
@@ -558,7 +605,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 0.3226415, g: 0.63232243, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 0.9734455, g: 0.09084173, b: 0.7379107, a: 1}
@@ -623,7 +670,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: 0.5
-      minScalar: 0.8
+      minScalar: 2
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1086,7 +1133,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.5
+      value: 0.62
       mode: 0
       spread: 0
       speed:
@@ -1701,25 +1748,25 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.60430634, g: 0.5990566, b: 1, a: 0.5019608}
-        key1: {r: 0.6367924, g: 0.9648492, b: 1, a: 1}
-        key2: {r: 0.5989194, g: 0, b: 1, a: 1}
-        key3: {r: 0, g: 0, b: 0, a: 0.58431375}
-        key4: {r: 0, g: 0, b: 0, a: 0}
-        key5: {r: 0, g: 0, b: 0, a: 0}
+        key0: {r: 1, g: 1, b: 1, a: 0}
+        key1: {r: 1, g: 1, b: 1, a: 0.9848131}
+        key2: {r: 0.23074007, g: 1, b: 0.93011117, a: 1}
+        key3: {r: 0.49693304, g: 0.09305898, b: 1, a: 0}
+        key4: {r: 1, g: 0.8464604, b: 0.23230173, a: 0}
+        key5: {r: 1, g: 1, b: 1, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
         ctime0: 0
-        ctime1: 31997
-        ctime2: 59174
-        ctime3: 0
-        ctime4: 0
-        ctime5: 0
+        ctime1: 65535
+        ctime2: 43716
+        ctime3: 65535
+        ctime4: 50886
+        ctime5: 65535
         ctime6: 0
         ctime7: 0
         atime0: 0
-        atime1: 14456
-        atime2: 57825
+        atime1: 16460
+        atime2: 51525
         atime3: 65535
         atime4: 0
         atime5: 0
@@ -1727,7 +1774,7 @@ ParticleSystem:
         atime7: 0
         m_Mode: 0
         m_ColorSpace: -1
-        m_NumColorKeys: 3
+        m_NumColorKeys: 2
         m_NumAlphaKeys: 4
       minGradient:
         serializedVersion: 2
@@ -5170,7 +5217,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: fa2c03ad3185d61418ed28c238576da5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5190,7 +5237,7 @@ ParticleSystemRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 9
+  m_SortingOrder: 11
   m_RenderMode: 0
   m_MeshDistribution: 0
   m_SortMode: 0
