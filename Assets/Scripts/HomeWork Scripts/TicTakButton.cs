@@ -18,7 +18,7 @@ namespace TikButton
         [SerializeField] private GameObject particleObject = null;//particlessss
         public int thisButtonIs = 0;
 
-        bool pressed = false;
+        public bool pressed = false;
         public TicTakButton()
         {
         }

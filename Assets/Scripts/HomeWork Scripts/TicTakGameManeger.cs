@@ -50,6 +50,8 @@ namespace manager
         {
             // Array for results
             bool[] results = new bool[8];
+            bool[] resultsO = new bool[8];
+
 
             // Check if the button is 1 (X)
             results[0] = AreValuesEqual(1, b1.thisButtonIs, b2.thisButtonIs, b3.thisButtonIs); // 123 horizontal
@@ -62,7 +64,6 @@ namespace manager
             results[7] = AreValuesEqual(1, b1.thisButtonIs, b5.thisButtonIs, b9.thisButtonIs); // 159 diagonal
 
             // Check if button is 2 (O)
-            bool[] resultsO = new bool[8];
             resultsO[0] = AreValuesEqual(2, b1.thisButtonIs, b2.thisButtonIs, b3.thisButtonIs); // 123 horizontal
             resultsO[1] = AreValuesEqual(2, b4.thisButtonIs, b5.thisButtonIs, b6.thisButtonIs); // 456 horizontal
             resultsO[2] = AreValuesEqual(2, b7.thisButtonIs, b8.thisButtonIs, b9.thisButtonIs); // 789 horizontal
@@ -71,6 +72,7 @@ namespace manager
             resultsO[5] = AreValuesEqual(2, b3.thisButtonIs, b6.thisButtonIs, b9.thisButtonIs); // 369 vertical
             resultsO[6] = AreValuesEqual(2, b3.thisButtonIs, b5.thisButtonIs, b7.thisButtonIs); // 357 diagonal
             resultsO[7] = AreValuesEqual(2, b1.thisButtonIs, b5.thisButtonIs, b9.thisButtonIs); // 159 diagonal
+
 
             // Check results for X
             for (int i = 0; i < results.Length; i++)
@@ -99,10 +101,15 @@ namespace manager
                     return;
                 }
             }
-
-            // If no winner
-            win = false;
-            Debug.Log("KeepGoing");
+            //check if all pressed but both lost
+            if (TicTakButton.num == 9) // On ninth click and no win was triggered before all lost
+            {
+                win = false;
+                Debug.Log("All lost");
+                winObject.SetActive(true);
+                winText.text = "All Lost! Try Again?";
+            }
         }
     }
 }
+    
