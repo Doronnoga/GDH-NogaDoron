@@ -102,7 +102,7 @@ namespace manager
                 }
             }
             //check if all pressed but both lost
-            if (TicTakButton.num == 9) // On ninth click and no win was triggered before all lost
+            if (TicTakButton.num == 10) // On ninth click and no win was triggered before all lost
             {
                 win = false;
                 Debug.Log("All lost");
